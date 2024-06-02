@@ -22,7 +22,7 @@ app.use('/api/contact', contactRoute);
 
 
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 10000;
 const URI = process.env.MongoDBURI;
 
 // Connect to MongoDB
